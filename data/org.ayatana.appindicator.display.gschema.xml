@@ -1,0 +1,43 @@
+<schemalist gettext-domain="ayatana-appindicator-display">
+  <schema id="org.ayatana.appindicator.display" path="/org/ayatana/appindicator/display/" gettext-domain="ayatana-appindicator-display">
+    <key name="color-temp" type="q">
+      <range min="3000" max="6500"/>
+      <default>4913</default>
+      <summary>Color temperature</summary>
+      <description>Sets the color temperature of your screen. The lower the value, the higher the intensity of the redness effect applied to the display.</description>
+    </key>
+    <key name="color-temp-profile" type="q">
+      <default>2</default>
+      <summary>Color temperature profile</summary>
+      <description>The current color temperature profile being used by the indicator.</description>
+    </key>
+    <key name="brightness" type="d">
+      <range min="0.5" max="1.0"/>
+      <default>1.0</default>
+      <summary>Screen brightness</summary>
+      <description>Stores the current brightness value of your screen.</description>
+    </key>
+    <key type="s" name="theme-profile">
+      <choices>
+        <choice value='light'/>
+        <choice value='dark'/>
+        <choice value='adaptive'/>
+      </choices>
+      <default>'light'</default>
+      <summary>Theme profile</summary>
+      <description>The current theme profile being used by the indicator.</description>
+    </key>
+    <key name="latitude" type="d">
+      <range min="-90.0" max="90.0"/>
+      <default>51.4825766</default>
+      <summary>Current geographic latitude</summary>
+      <description>Stores the last recorded geographic latitude of the device.</description>
+    </key>
+    <key name="longitude" type="d">
+      <range min="-180.0" max="180.0"/>
+      <default>-0.0076589</default>
+      <summary>Current geographic longitude</summary>
+      <description>Stores the last recorded geographic longitude of the device.</description>
+    </key>
+  </schema>
+</schemalist>

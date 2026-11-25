@@ -1,0 +1,101 @@
+# Japanese translations for PACKAGE package.
+# Copyright (C) 2017 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-25 15:34+0100\n"
+"PO-Revision-Date: 2024-08-09 14:09+0000\n"
+"Last-Translator: umesaburo sagawa <atowa-notonare-yamatonare427@pm.me>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/ayatana-"
+"indicators/display-applet/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.7-dev\n"
+
+#: src/indicator.c:320
+msgid "Brightness"
+msgstr "明るさ"
+
+#: src/indicator.c:335 data/org.ayatana.appindicator.display.gschema.xml:6
+msgid "Color temperature"
+msgstr "色温度"
+
+#: src/indicator.c:346 data/org.ayatana.appindicator.display.gschema.xml:11
+msgid "Color temperature profile"
+msgstr "色温度のプロフィール"
+
+#: src/indicator.c:374 data/org.ayatana.appindicator.display.gschema.xml:27
+msgid "Theme profile"
+msgstr "テーマプロファイル"
+
+#: src/indicator.c:375
+msgid "Light"
+msgstr "ライト"
+
+#: src/indicator.c:378
+msgid "Dark"
+msgstr "ダーク"
+
+#: src/indicator.c:381
+msgid "Adaptive"
+msgstr "適応"
+
+#: src/indicator.c:391
+msgid "Display settings..."
+msgstr ""
+
+#: src/indicator.c:404 src/indicator.c:407
+#: data/ayatana-appindicator-display.desktop.in:4
+msgid "Display settings and features"
+msgstr "ディスプレイの設定と機能"
+
+#: src/indicator.c:409
+msgid "Display"
+msgstr "ディスプレイ"
+
+#: data/org.ayatana.appindicator.display.gschema.xml:7
+msgid ""
+"Sets the color temperature of your screen. The lower the value, the higher "
+"the intensity of the redness effect applied to the display."
+msgstr ""
+"画面の色温度を設定します。数値が低いほど、ディスプレイに適用される赤みエフェ"
+"クトの強度が高くなります。"
+
+#: data/org.ayatana.appindicator.display.gschema.xml:12
+msgid "The current color temperature profile being used by the indicator."
+msgstr "インジケーターが現在使用している色温度プロファイル。"
+
+#: data/org.ayatana.appindicator.display.gschema.xml:17
+msgid "Screen brightness"
+msgstr "画面の明るさ"
+
+#: data/org.ayatana.appindicator.display.gschema.xml:18
+msgid "Stores the current brightness value of your screen."
+msgstr "スクリーンの現在の明るさの値を保存します。"
+
+#: data/org.ayatana.appindicator.display.gschema.xml:28
+msgid "The current theme profile being used by the indicator."
+msgstr "インジケーターが現在使用しているテーマプロファイル。"
+
+#: data/org.ayatana.appindicator.display.gschema.xml:33
+msgid "Current geographic latitude"
+msgstr "現在の地理的緯度"
+
+#: data/org.ayatana.appindicator.display.gschema.xml:34
+msgid "Stores the last recorded geographic latitude of the device."
+msgstr "最後に記録されたデバイスの地理的緯度を保存します。"
+
+#: data/org.ayatana.appindicator.display.gschema.xml:39
+msgid "Current geographic longitude"
+msgstr "現在の地理的緯度"
+
+#: data/org.ayatana.appindicator.display.gschema.xml:40
+msgid "Stores the last recorded geographic longitude of the device."
+msgstr "最後に記録されたデバイスの地理的経度を保存します。"

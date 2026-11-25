@@ -1,0 +1,101 @@
+# Korean translations for PACKAGE package.
+# Copyright (C) 2017 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-25 15:34+0100\n"
+"PO-Revision-Date: 2024-04-13 05:18+0000\n"
+"Last-Translator: ID J <tabby4442@gmail.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/ayatana-"
+"indicators/display-applet/ko/>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.5-dev\n"
+
+#: src/indicator.c:320
+msgid "Brightness"
+msgstr "밝기"
+
+#: src/indicator.c:335 data/org.ayatana.appindicator.display.gschema.xml:6
+msgid "Color temperature"
+msgstr "색온도"
+
+#: src/indicator.c:346 data/org.ayatana.appindicator.display.gschema.xml:11
+msgid "Color temperature profile"
+msgstr "색온도 프로필"
+
+#: src/indicator.c:374 data/org.ayatana.appindicator.display.gschema.xml:27
+msgid "Theme profile"
+msgstr "테마 프로필"
+
+#: src/indicator.c:375
+msgid "Light"
+msgstr "라이트"
+
+#: src/indicator.c:378
+msgid "Dark"
+msgstr "다크"
+
+#: src/indicator.c:381
+msgid "Adaptive"
+msgstr "어댑티브"
+
+#: src/indicator.c:391
+msgid "Display settings..."
+msgstr ""
+
+#: src/indicator.c:404 src/indicator.c:407
+#: data/ayatana-appindicator-display.desktop.in:4
+msgid "Display settings and features"
+msgstr "디스플레이 설정 및 기능"
+
+#: src/indicator.c:409
+msgid "Display"
+msgstr "디스플레이"
+
+#: data/org.ayatana.appindicator.display.gschema.xml:7
+msgid ""
+"Sets the color temperature of your screen. The lower the value, the higher "
+"the intensity of the redness effect applied to the display."
+msgstr ""
+"화면의 색온도를 지정합니다. 값이 낮을수록 디스플레이에 적용되는 적색 효과의 "
+"강도가 높아집니다."
+
+#: data/org.ayatana.appindicator.display.gschema.xml:12
+msgid "The current color temperature profile being used by the indicator."
+msgstr "표시도구에 사용되는 현재 색온도 프로필입니다."
+
+#: data/org.ayatana.appindicator.display.gschema.xml:17
+msgid "Screen brightness"
+msgstr "화면 밝기"
+
+#: data/org.ayatana.appindicator.display.gschema.xml:18
+msgid "Stores the current brightness value of your screen."
+msgstr "화면의 현재 밝기 값을 저장합니다."
+
+#: data/org.ayatana.appindicator.display.gschema.xml:28
+msgid "The current theme profile being used by the indicator."
+msgstr "표시도구가 사용하고 있는 현재 테마 프로필입니다."
+
+#: data/org.ayatana.appindicator.display.gschema.xml:33
+msgid "Current geographic latitude"
+msgstr "현재 지리적 위도"
+
+#: data/org.ayatana.appindicator.display.gschema.xml:34
+msgid "Stores the last recorded geographic latitude of the device."
+msgstr "장치의 마지막으로 기록된 지리적 위도를 저장합니다."
+
+#: data/org.ayatana.appindicator.display.gschema.xml:39
+msgid "Current geographic longitude"
+msgstr "현재 지리적 경도"
+
+#: data/org.ayatana.appindicator.display.gschema.xml:40
+msgid "Stores the last recorded geographic longitude of the device."
+msgstr "장치의 마지막으로 기록된 지리적 경도를 저장합니다."

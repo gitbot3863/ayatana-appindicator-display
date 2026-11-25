@@ -1,0 +1,101 @@
+# Czech translations for PACKAGE package.
+# Copyright (C) 2017 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-25 15:34+0100\n"
+"PO-Revision-Date: 2023-11-07 18:37+0000\n"
+"Last-Translator: Jozef Mlich <jmlich83@gmail.com>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/ayatana-indicators/"
+"display-applet/cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 5.2-dev\n"
+
+#: src/indicator.c:320
+msgid "Brightness"
+msgstr "Jas"
+
+#: src/indicator.c:335 data/org.ayatana.appindicator.display.gschema.xml:6
+msgid "Color temperature"
+msgstr "Barevná teplota"
+
+#: src/indicator.c:346 data/org.ayatana.appindicator.display.gschema.xml:11
+msgid "Color temperature profile"
+msgstr "Profil barevné teploty"
+
+#: src/indicator.c:374 data/org.ayatana.appindicator.display.gschema.xml:27
+msgid "Theme profile"
+msgstr "Profil tématu"
+
+#: src/indicator.c:375
+msgid "Light"
+msgstr "Světlý"
+
+#: src/indicator.c:378
+msgid "Dark"
+msgstr "Tmavý"
+
+#: src/indicator.c:381
+msgid "Adaptive"
+msgstr "Adaptivní"
+
+#: src/indicator.c:391
+msgid "Display settings..."
+msgstr ""
+
+#: src/indicator.c:404 src/indicator.c:407
+#: data/ayatana-appindicator-display.desktop.in:4
+msgid "Display settings and features"
+msgstr "Nastavení a funkce obrazovky"
+
+#: src/indicator.c:409
+msgid "Display"
+msgstr "Obrazovka"
+
+#: data/org.ayatana.appindicator.display.gschema.xml:7
+msgid ""
+"Sets the color temperature of your screen. The lower the value, the higher "
+"the intensity of the redness effect applied to the display."
+msgstr ""
+"Nastaví teplotu barev obrazovky. Čím nižší je hodnota, tím vyšší je "
+"intenzita efektu zarudnutí aplikovaného na displej."
+
+#: data/org.ayatana.appindicator.display.gschema.xml:12
+msgid "The current color temperature profile being used by the indicator."
+msgstr "Aktuální profil teploty barev používaný indikátorem."
+
+#: data/org.ayatana.appindicator.display.gschema.xml:17
+msgid "Screen brightness"
+msgstr "Jas obrazovky"
+
+#: data/org.ayatana.appindicator.display.gschema.xml:18
+msgid "Stores the current brightness value of your screen."
+msgstr "Uloží aktuální hodnotu jasu obrazovky."
+
+#: data/org.ayatana.appindicator.display.gschema.xml:28
+msgid "The current theme profile being used by the indicator."
+msgstr "Aktuální profil tématu používaný indikátorem."
+
+#: data/org.ayatana.appindicator.display.gschema.xml:33
+msgid "Current geographic latitude"
+msgstr "Současná zeměpisná šířka"
+
+#: data/org.ayatana.appindicator.display.gschema.xml:34
+msgid "Stores the last recorded geographic latitude of the device."
+msgstr "Uloží poslední zaznamenanou zeměpisnou šířku zařízení."
+
+#: data/org.ayatana.appindicator.display.gschema.xml:39
+msgid "Current geographic longitude"
+msgstr "Současná zeměpisná délka"
+
+#: data/org.ayatana.appindicator.display.gschema.xml:40
+msgid "Stores the last recorded geographic longitude of the device."
+msgstr "Uloží poslední zaznamenanou zeměpisnou délku zařízení."

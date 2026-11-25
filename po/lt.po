@@ -1,0 +1,103 @@
+# Lithuanian translations for PACKAGE package.
+# Copyright (C) 2017 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-25 15:34+0100\n"
+"PO-Revision-Date: 2024-01-23 21:01+0000\n"
+"Last-Translator: Moo <hazap@hotmail.com>\n"
+"Language-Team: Lithuanian <https://hosted.weblate.org/projects/ayatana-"
+"indicators/display-applet/lt/>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
+"19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
+"1 : 2);\n"
+"X-Generator: Weblate 5.4-dev\n"
+
+#: src/indicator.c:320
+msgid "Brightness"
+msgstr "Ryškumas"
+
+#: src/indicator.c:335 data/org.ayatana.appindicator.display.gschema.xml:6
+msgid "Color temperature"
+msgstr "Spalvos temperatūra"
+
+#: src/indicator.c:346 data/org.ayatana.appindicator.display.gschema.xml:11
+msgid "Color temperature profile"
+msgstr "Spalvos temperatūros profilis"
+
+#: src/indicator.c:374 data/org.ayatana.appindicator.display.gschema.xml:27
+msgid "Theme profile"
+msgstr "Apipavidalinimo profilis"
+
+#: src/indicator.c:375
+msgid "Light"
+msgstr "Šviesus"
+
+#: src/indicator.c:378
+msgid "Dark"
+msgstr "Tamsus"
+
+#: src/indicator.c:381
+msgid "Adaptive"
+msgstr "Adaptyvus"
+
+#: src/indicator.c:391
+msgid "Display settings..."
+msgstr ""
+
+#: src/indicator.c:404 src/indicator.c:407
+#: data/ayatana-appindicator-display.desktop.in:4
+msgid "Display settings and features"
+msgstr "Ekrano nustatymai ir funkcijos"
+
+#: src/indicator.c:409
+msgid "Display"
+msgstr "Ekranas"
+
+#: data/org.ayatana.appindicator.display.gschema.xml:7
+msgid ""
+"Sets the color temperature of your screen. The lower the value, the higher "
+"the intensity of the redness effect applied to the display."
+msgstr ""
+"Nustato jūsų ekrano spalvos temperatūrą. Kuo žemesnė reikšmė, tuo didesnis "
+"raudonumo efekto intensyvumas bus taikomas ekranui."
+
+#: data/org.ayatana.appindicator.display.gschema.xml:12
+msgid "The current color temperature profile being used by the indicator."
+msgstr "Šiuo metu indikatoriaus naudojamas spalvos temperatūros profilis."
+
+#: data/org.ayatana.appindicator.display.gschema.xml:17
+msgid "Screen brightness"
+msgstr "Ekrano ryškumas"
+
+#: data/org.ayatana.appindicator.display.gschema.xml:18
+msgid "Stores the current brightness value of your screen."
+msgstr "Saugo dabartinę ekrano ryškumo reikšmę."
+
+#: data/org.ayatana.appindicator.display.gschema.xml:28
+msgid "The current theme profile being used by the indicator."
+msgstr "Šiuo metu indikatoriaus naudojamas apipavidalinimo profilis."
+
+#: data/org.ayatana.appindicator.display.gschema.xml:33
+msgid "Current geographic latitude"
+msgstr "Dabartinė geografinė platuma"
+
+#: data/org.ayatana.appindicator.display.gschema.xml:34
+msgid "Stores the last recorded geographic latitude of the device."
+msgstr "Saugo paskutinę įrašytą įrenginio geografinę platumą."
+
+#: data/org.ayatana.appindicator.display.gschema.xml:39
+msgid "Current geographic longitude"
+msgstr "Dabartinė geografinė ilguma"
+
+#: data/org.ayatana.appindicator.display.gschema.xml:40
+msgid "Stores the last recorded geographic longitude of the device."
+msgstr "Saugo paskutinę įrašytą įrenginio geografinę ilgumą."

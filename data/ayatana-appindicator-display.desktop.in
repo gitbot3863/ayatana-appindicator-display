@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Ayatana Appindicator Display
+_Comment=Display settings and features
+Exec=@CMAKE_INSTALL_FULL_BINDIR@/ayatana-appindicator-display
+OnlyShowIn=MATE;XFCE;Budgie;
+NoDisplay=true
+StartupNotify=false
+Terminal=false
