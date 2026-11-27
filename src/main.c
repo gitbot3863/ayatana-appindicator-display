@@ -12,7 +12,7 @@ static gboolean onQuit (gpointer pData)
     return G_SOURCE_REMOVE;
 }
 
-int main (int argc, char **argv)
+int main (int argc G_GNUC_UNUSED, char **argv G_GNUC_UNUSED)
 {
     setlocale(LC_ALL, "");
     setlocale (LC_NUMERIC, "POSIX");
@@ -21,6 +21,7 @@ int main (int argc, char **argv)
     IndicatorDisplay *pService = indicator_display_new ();
     GMainLoop *pLoop = g_main_loop_new (NULL, FALSE);
     g_unix_signal_add (SIGINT, onQuit, pLoop);
+    g_unix_signal_add (SIGTERM, onQuit, pLoop);
     g_main_loop_run (pLoop);
     g_clear_object (&pService);
     g_main_loop_unref (pLoop);

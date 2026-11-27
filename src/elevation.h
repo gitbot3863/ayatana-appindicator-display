@@ -1,5 +1,5 @@
-#ifndef SOLAR_H
-#define SOLAR_H
+#ifndef ELEVATION_H
+#define ELEVATION_H
 
 #include <glib.h>
 

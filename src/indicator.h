@@ -1,5 +1,5 @@
-#ifndef __INDICATOR_DISPLAY_H__
-#define __INDICATOR_DISPLAY_H__
+#ifndef INDICATOR_DISPLAY_H
+#define INDICATOR_DISPLAY_H
 
 #include <ayatana-appindicator.h>
 
@@ -35,8 +35,8 @@ typedef struct
     GObjectClass pParentClass;
 } IndicatorDisplayClass;
 
-GType indicator_display_get_type ();
-IndicatorDisplay* indicator_display_new ();
+GType indicator_display_get_type (void);
+IndicatorDisplay* indicator_display_new (void);
 
 G_END_DECLS
 

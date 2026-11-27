@@ -47,7 +47,7 @@ gdouble solarElevation (gdouble fUnixTimestamp, gdouble fLatitude, gdouble fLong
     }
 
     gdouble fHourAngle = DEGREES_TO_RADIANS ((720.0 - fMinutesOfDay - fEquationOfTimeMinutes) / 4.0 - fLongitude);
-    gdouble fSolarElevation = asin (cos (fHourAngle) * cos (fLatitudeRadians) * cos (fDeclination) + sin (fLatitudeRadians) * sin (fDeclination));
+    gdouble fSolarElevation = asin (CLAMP (cos (fHourAngle) * cos (fLatitudeRadians) * cos (fDeclination) + sin (fLatitudeRadians) * sin (fDeclination), -1.0, 1.0));
 
     return RADIANS_TO_DEGREES (fSolarElevation);
 }
