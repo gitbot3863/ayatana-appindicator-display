@@ -14,6 +14,33 @@ static gboolean onQuit (gpointer pData)
 
 int main (int argc G_GNUC_UNUSED, char **argv G_GNUC_UNUSED)
 {
+    GApplication *pApplication = g_application_new ("org.ayatana.appindicator.display", G_APPLICATION_DEFAULT_FLAGS);
+    GError *pError = NULL;
+    gboolean bRegistered = g_application_register (pApplication, NULL, &pError);
+
+    if (!bRegistered)
+    {
+        gchar *sError = "Unknown error";
+
+        if (pError != NULL)
+        {
+            sError = pError->message;
+        }
+
+        g_warning ("Unable to register application: %s", sError);
+        g_clear_error (&pError);
+        g_object_unref (pApplication);
+
+        return 1;
+    }
+
+    gboolean bRemote = g_application_get_is_remote (pApplication);
+
+    if (bRemote)
+    {
+        return 0;
+    }
+
     setlocale(LC_ALL, "");
     setlocale (LC_NUMERIC, "POSIX");
     bindtextdomain (GETTEXT_PACKAGE, LOCALEDIR);

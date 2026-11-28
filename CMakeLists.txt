@@ -5,14 +5,12 @@ if (CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
     SET (CMAKE_INSTALL_PREFIX "/usr" CACHE PATH "..." FORCE)
 endif (CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
 
-add_definitions ("-Wall")
+add_compile_options (-Wall)
 
-if (CMAKE_BUILD_TYPE STREQUAL "Debug")
-    add_definitions ("-Wextra")
-    add_definitions ("-Wpedantic")
-    add_definitions ("-Werror")
-else ()
+if (NOT CMAKE_BUILD_TYPE)
     set (CMAKE_BUILD_TYPE "Release")
+elseif (CMAKE_BUILD_TYPE STREQUAL "Debug")
+    add_compile_options (-Wextra -Wpedantic -Werror)
 endif ()
 
 include (GNUInstallDirs)
