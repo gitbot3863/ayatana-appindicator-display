@@ -52,6 +52,7 @@ int main (int argc G_GNUC_UNUSED, char **argv G_GNUC_UNUSED)
     g_main_loop_run (pLoop);
     g_clear_object (&pService);
     g_main_loop_unref (pLoop);
+    g_object_unref (pApplication);
 
     return 0;
 }
