@@ -25,3 +25,11 @@ cmake -S . -B build
 cmake --build build
 cmake --install build
 ```
+
+
+### Test build:
+
+```
+cmake -DCMAKE_BUILD_TYPE=Debug -S . -B build
+cmake --build build
+```
